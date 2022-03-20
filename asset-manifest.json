@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-reactjs/static/css/main.c3c53b77.css",
+    "main.js": "/portfolio-reactjs/static/js/main.f57c305a.js",
+    "static/media/mart.mp4": "/portfolio-reactjs/static/media/mart.604c63cb0b0539b37f58.mp4",
+    "static/media/admCitas.png": "/portfolio-reactjs/static/media/admCitas.aef53837565d7728146f.png",
+    "static/media/criptomonedas.jpg": "/portfolio-reactjs/static/media/criptomonedas.3fdf301fa31656aaafd2.jpg",
+    "static/media/marvelDC.jpg": "/portfolio-reactjs/static/media/marvelDC.66b35398bd9f4ba8d29b.jpg",
+    "static/media/RandMN.jpg": "/portfolio-reactjs/static/media/RandMN.e647c42c971175593504.jpg",
+    "static/media/developer.webp": "/portfolio-reactjs/static/media/developer.b3b8d326b555c792445b.webp",
+    "static/media/appClima.webp": "/portfolio-reactjs/static/media/appClima.fa074638d32301f6ed06.webp",
+    "static/media/tri-qui.png": "/portfolio-reactjs/static/media/tri-qui.13ac794a51f8ed05d315.png",
+    "index.html": "/portfolio-reactjs/index.html",
+    "main.c3c53b77.css.map": "/portfolio-reactjs/static/css/main.c3c53b77.css.map",
+    "main.f57c305a.js.map": "/portfolio-reactjs/static/js/main.f57c305a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3c53b77.css",
+    "static/js/main.f57c305a.js"
+  ]
+}
