@@ -7,7 +7,7 @@ export const Info = () => {
   return (
     <div className='info-container'>
      <div className='info'>
-         <h1>little by little every day is better than a lot from time to time</h1>
+         <h1>"We all must suffer one of two things: the pain of discipline or the pain of regret and disappointment."</h1>
      </div>
     </div>
   )

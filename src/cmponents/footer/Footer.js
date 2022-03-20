@@ -5,15 +5,14 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <h1>Victor Fresneda</h1>
-        <p>based on your city</p>
+        <h1>Victor Alfonso Fresneda Higuera </h1>
+        <p>Bogotá city</p>
       </div>
       <div className="footer-contact">
         <h3>Contact me</h3>
         <p>and let is get down to work </p>
       </div>
       <div className="footer-sns">
-        <div className="design-by">Design By Victor Fresneda</div>
         <div className="sns-links">
           <a
             href="https://www.linkedin.com/in/victor-fresneda-44b88420a"
@@ -28,6 +27,8 @@ export const Footer = () => {
             <i className="fab fa-github github"> </i>
           </a>
         </div>
+        <div className="design-by">Design By Victor Fresneda</div>
+
       </div>
     </footer>
   );

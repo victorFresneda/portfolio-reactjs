@@ -1,23 +1,35 @@
-.navbar{
-    position: fixed;
-    top: 0;
-    background-color: transparent;
-    width: 100%;
-    height: 80px;
-    padding-left: 50px;
-    font-size: 20px;
-    z-index: 1;
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 80px;
+  padding-left: 50px;
+  font-size: 20px;
+  z-index: 1;
 }
 
-.scrolling{
-    background-color: rgb(38, 170, 194);
-    transition: all 0.5s ease;
+.scrolling {
+  background-color: rgb(6, 59, 68);
+  transition: all 0.5s ease;
 }
 
-.navbar-logo{
-    height: 80px;
-    line-height: 80px;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
+.navbar-logo {
+  height: 80px;
+  line-height: 80px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar {
+    font-size: 16px;
+    height: 60px;
+    padding-left: 25px;
+  }
+
+  .navbar-logo {
+    line-height: 60px;
+  }
 }

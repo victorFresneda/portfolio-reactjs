@@ -1,11 +1,11 @@
 import React from 'react'
 import './Slider.css'
-// import AdmCitasJS from '../../media/AdmCitasJS.png'
-// import apiRYMreact from '../../media/api-RYM-react.png'
-// import appClimaJS from '../../media/appClimaJS.png'
-// import appCriptoJS from '../../media/appCriptoJS.png'
-// import heroesAppReact from '../../media/heroesAppReact.png'
-// import triquireact from '../../media/tri-qui-react.png'
+import AdmCitasJS from '../../media/admCitas.png'
+import apiRYMreact from '../../media/RandMN.jpg'
+import appClimaJS from '../../media/appClima.webp'
+import appCriptoJS from '../../media/criptomonedas.jpg'
+import heroesAppReact from '../../media/marvelDC.jpg'
+import triquireact from '../../media/tri-qui.png'
 
 
 
@@ -14,35 +14,41 @@ import './Slider.css'
 
  const slidesInfo = [
      {
-         src: 'https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg',
+         src: apiRYMreact,
          alt: 'project 1',
-         desc:'project 1'
+         desc:'App rick and Morty',
+         href: 'https://github.com/victorFresneda/api-rick-and-morty-reactjs.git'
      },
      {
-        src: 'https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg',
+        src: AdmCitasJS,
         alt: 'project 2',
-        desc:'project 2'
+        desc:'Administrador de citas',
+        href:'https://github.com/victorFresneda/adminCitas.git' 
     },
     {
-        src: 'https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg',
+        src: appClimaJS,
         alt: 'project 3',
-        desc:'project 3'
+        desc:'App clima ',
+        href:'https://github.com/victorFresneda/appDelClima.git'
     },
-    // {
-    //     src: appCriptoJS,
-    //     alt: 'project 4',
-    //     desc:'project 4'
-    // },
-    // {
-    //     src: heroesAppReact,
-    //     alt: 'project 5',
-    //     desc:'project 5'
-    // },
-    // {
-    //     src: triquireact,
-    //     alt: 'project 6',
-    //     desc:'project 6'
-    // },
+    {
+        src: appCriptoJS,
+        alt: 'project 4',
+        desc:'App criptomonedas',
+        href:'https://github.com/victorFresneda/proyecto_cripto_monedas.git'
+    },
+    {
+        src: heroesAppReact,
+        alt: 'project 5',
+        desc:'App Marvel-Dc ',
+        href:'https://github.com/victorFresneda/heroes-App-React.git'
+    },
+    {
+        src: triquireact,
+        alt: 'project 6',
+        desc:'tri-qui react',
+        href:'https://github.com/victorFresneda/tri-qui-reaact.git'
+    },
  ] 
 
  const Slides = slidesInfo.map(slide => (
@@ -50,7 +56,7 @@ import './Slider.css'
 
         <img src={slide.src} alt={slide.alt}/>
         <div className='slide-desc'>
-            <span>{slide.desc}</span>
+        <span><a href={slide.href} target='_blank'>{slide.desc}</a></span>
         </div>
 
      </div>
