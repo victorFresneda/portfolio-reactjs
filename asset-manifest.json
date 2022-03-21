@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-reactjs/static/css/main.99897167.css",
-    "main.js": "/portfolio-reactjs/static/js/main.343e5c31.js",
+    "main.css": "/portfolio-reactjs/static/css/main.dd4bc931.css",
+    "main.js": "/portfolio-reactjs/static/js/main.dda3f6b6.js",
     "static/media/mart.mp4": "/portfolio-reactjs/static/media/mart.604c63cb0b0539b37f58.mp4",
     "static/media/admCitas.png": "/portfolio-reactjs/static/media/admCitas.aef53837565d7728146f.png",
     "static/media/criptomonedas.jpg": "/portfolio-reactjs/static/media/criptomonedas.3fdf301fa31656aaafd2.jpg",
@@ -11,11 +11,11 @@
     "static/media/appClima.webp": "/portfolio-reactjs/static/media/appClima.fa074638d32301f6ed06.webp",
     "static/media/tri-qui.png": "/portfolio-reactjs/static/media/tri-qui.13ac794a51f8ed05d315.png",
     "index.html": "/portfolio-reactjs/index.html",
-    "main.99897167.css.map": "/portfolio-reactjs/static/css/main.99897167.css.map",
-    "main.343e5c31.js.map": "/portfolio-reactjs/static/js/main.343e5c31.js.map"
+    "main.dd4bc931.css.map": "/portfolio-reactjs/static/css/main.dd4bc931.css.map",
+    "main.dda3f6b6.js.map": "/portfolio-reactjs/static/js/main.dda3f6b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.99897167.css",
-    "static/js/main.343e5c31.js"
+    "static/css/main.dd4bc931.css",
+    "static/js/main.dda3f6b6.js"
   ]
 }
